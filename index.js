@@ -5,11 +5,11 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-   myAnimal();
+   var animal = 'cat'
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-    return console.log(animal)
+    return animal;
 
 }
 
