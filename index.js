@@ -37,5 +37,5 @@ var funkyFunction = function() {
     var funkyFunction = console.log(`${theFunk}`);
   }
 }*/
-funkyFunction();
-var theFunk = funkyFunction(theFunk);
+
+var theFunk = funkyFunction();
