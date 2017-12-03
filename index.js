@@ -38,7 +38,13 @@ var theFunk = function(){
   }
 }
 
-
+function theFunk(){
+  var funkyFunction;
+  return function funkyFunction(){
+    console.log(funkyFunction);
+    return funkyFunction
+  }
+}
 
 /*function(){
   var funkyFunction;
