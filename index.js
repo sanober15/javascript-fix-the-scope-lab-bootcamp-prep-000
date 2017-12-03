@@ -41,7 +41,7 @@ var theFunk = function(){
 function theFunk(){
   var funkyFunction;
   return function funkyFunction(){
-    return console.log(funkyFunction);
+    return console.log(theFunk);
 
   }
 }
