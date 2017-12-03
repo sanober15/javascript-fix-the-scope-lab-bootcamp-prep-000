@@ -34,7 +34,7 @@ var funkyFunction = function() {
 var theFunk = function(){
   var funkyFunction = "FUNKY!"
   return function funkyFunction(){
-    return console.log(funkyFunction);
+    return console.log(`${funkyFunction}`);
   }
 }
 
