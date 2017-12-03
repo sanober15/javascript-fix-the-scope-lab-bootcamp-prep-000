@@ -33,11 +33,10 @@ function funkyFunction() {
 // NOTE: you only need to modify the code below this line.
 funkyFunction;
 var theFunk = funkyFunction();
-/*
+
 function theFunk(){
   var theFunk = "FUNKY!";
   return function funkyFunction(){
     return theFunk;
   }
 }
-*/
