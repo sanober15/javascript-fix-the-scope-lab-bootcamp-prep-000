@@ -42,7 +42,7 @@ function theFunk(){
   var funkyFunction;
   return function funkyFunction(){
     return console.log(funkyFunction);
-    
+
   }
 }
 
