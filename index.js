@@ -42,6 +42,7 @@ function theFunk(){
   var funkyFunction;
   var theFunk;
   return function funkyFunction(){
+    var theFunk;
     return console.log("FUNKY!");
 
   }
