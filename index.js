@@ -35,7 +35,7 @@ var funkyFunction = function() {
 //funkyFunction();
 var theFunk = function(){
   return funkyFunction;
-    
+
   }
 }
 
