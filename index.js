@@ -35,10 +35,10 @@ var funkyFunction = function() {
 var theFunk = function funkyFunction(){
   return function funkyFunction() {
       return funkyFunction;
-      
+
   }
-    
-  
+
+
 }
 
 theFunk();
