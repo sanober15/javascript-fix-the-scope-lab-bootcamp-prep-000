@@ -39,7 +39,7 @@ var funkyFunction = function() {
 }*/
 
 var theFunk = function(){
-  return function funkyFunction();
-    
+  return function funkyFunction()
+
   }
 }
