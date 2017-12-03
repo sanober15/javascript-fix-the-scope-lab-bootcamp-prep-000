@@ -38,4 +38,6 @@ var funkyFunction = function() {
   }
 }*/
 
-var theFunk = function funkyFunction()
+var theFunk = function funkyFunction(){
+  return theFunk;
+}
