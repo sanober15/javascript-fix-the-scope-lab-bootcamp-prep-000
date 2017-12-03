@@ -33,8 +33,9 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = function(){
   var funkyFunction;
+  var theFunk;
   return function funkyFunction(){
-    var theFunk;
+    
     return console.log("FUNKY!");
   }
 
