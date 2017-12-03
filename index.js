@@ -36,7 +36,7 @@ var theFunk = function(){
   return function funkyFunction(){
     return funkyFunction;
   }
-  
+
 }
 
 /*
