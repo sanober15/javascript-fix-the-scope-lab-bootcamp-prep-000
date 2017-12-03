@@ -37,32 +37,5 @@ var funkyFunction = function() {
     var funkyFunction = console.log(`${theFunk}`);
   }
 }*/
-
-function theFunk(){
-  var funkyFunction;
-  var theFunk;
-  return function funkyFunction(){
-    var theFunk;
-    return console.log("FUNKY!");
-
-  }
-}
-
-/*function(){
-  var funkyFunction;
-  var theFunk ='FUNKY!';
-  return function funkyFunction(){
-
-    return theFunk;
-  }
-
-}
-
-/*
-function theFunk(){
-  var theFunk = "FUNKY!";
-  return function funkyFunction(){
-    return theFunk;
-  }
-}
-*/
+funkyFunction();
+var theFunk = console.log(`${funkyFunction}`);
